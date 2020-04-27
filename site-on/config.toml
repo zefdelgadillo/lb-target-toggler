@@ -1,0 +1,12 @@
+baseURL = "https://state-demo.zxdx.dev/"
+languageCode = "en-us"
+title = "Site is On"
+theme = "pulp"
+
+[params]
+    author = "Site is Turned On"
+    avatar = "green.png"
+    description = """
+        Load balancer is pointing to the "On" bucket
+    """
+    publicationYear = "2019"
