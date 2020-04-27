@@ -3,6 +3,6 @@ Just a sample static website to serve.
 
 ## Deployment
 ```
-TARGET_BUCKET=<bucket to deploy site to>
+export TARGET_BUCKET=<bucket to deploy site to>
 make deploy
 ```
