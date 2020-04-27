@@ -14,7 +14,7 @@ SITE_1_BUCKET=<Bucket for site 1>
 SITE_2_BUCKET=<Bucket for site 2>
 
 gcloud compute backend-buckets create $SITE_1 --gcs-bucket-name $SITE_1_BUCKET
-gcloud compute backend-buckets create $SITE_1 --gcs-bucket-name $SITE_2_BUCKET
+gcloud compute backend-buckets create $SITE_2 --gcs-bucket-name $SITE_2_BUCKET
 ```
 3. Create PubSub topics that each of your Cloud Functions will use for the trigger.
 ```
