@@ -3,4 +3,4 @@ upload:
 		cp -r static/* gs://${TARGET_BUCKET}/
 	gsutil web set -m index.html -e 404.html gs://${TARGET_BUCKET}/ 
 
-deploy: build upload
+deploy: upload
